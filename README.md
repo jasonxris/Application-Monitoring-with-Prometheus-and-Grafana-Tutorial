@@ -1,5 +1,6 @@
 # Application-Monitoring-with-Prometheus-and-Grafana-Tutorial
 
+**This tutorial was made to function within a google drive. They are currently being updated to work on Github**
 
 This is an overview and tutorial of Application Monitoring using [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).
 
