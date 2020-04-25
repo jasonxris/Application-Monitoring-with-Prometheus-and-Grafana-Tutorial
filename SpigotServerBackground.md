@@ -5,17 +5,17 @@ In order to practice using Grafana we need data. To create data for Prometheus t
 We will be getting the data from the minecraft server by adding a prometheus Exporter plugin to Minecraft. The definition of an exporter is found below: 
  
 1.	Verify you have the correct tools needed to Build the Jar
-a.	Have Java JRE 8  installed : 
-b.	Have Git Installed :  
-i.	Follow the instructions found at the link below if you do not have Git installed. https://www.atlassian.com/git/tutorials/install-git
+ +	Have Java JRE 8  installed : 
+ +	Have Git Installed :  
+   +	Follow the instructions found at the link below if you do not have Git installed. https://www.atlassian.com/git/tutorials/install-git
 
-2.	Build the minecraft Server.jar : 
+2.	Build the minecraft Server.jar 
 Because of copyright restrictions, we need to compile the specific spigot Minecraft Server.jar ourselves. We will do it using a Buildtools.jar provided by Spigot.
 
-a.	Download the BuildTools.jar from : https://drive.google.com/file/d/1VMBOtsy1uJjTC0_7yJHjvBNPAOXUHCyj/view?usp=sharing 
-a.	Create a folder named ‘minecraft-server’
-b.	Place the BuildTools.jar in it 
-c.	Run the BuildTools.jar according to the directions for your OS
++ 	Download the BuildTools.jar from : https://drive.google.com/file/d/1VMBOtsy1uJjTC0_7yJHjvBNPAOXUHCyj/view?usp=sharing 
++ 	Create a folder named ‘minecraft-server’
++ 	Place the BuildTools.jar in it 
++ 	Run the BuildTools.jar according to the directions for your OS
 Build tools automatically downloads, compiles, and creates the files that your minecraft server will need to run. 
 When using the following commands, make sure you open the folder containing the Buildtools.jar file with the terminal or the  “Git Bash” tool.
 i.	Windows
