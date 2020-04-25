@@ -15,20 +15,29 @@ Because of copyright restrictions, we need to compile the specific spigot Minecr
 + 	Download the BuildTools.jar from : https://drive.google.com/file/d/1VMBOtsy1uJjTC0_7yJHjvBNPAOXUHCyj/view?usp=sharing 
 + 	Create a folder named ‘minecraft-server’
 + 	Place the BuildTools.jar in it 
-+ 	Run the BuildTools.jar according to the directions for your OS
+
+## Run the BuildTools.jar according to the directions for your OS
+
 Build tools automatically downloads, compiles, and creates the files that your minecraft server will need to run. 
-When using the following commands, make sure you open the folder containing the Buildtools.jar file with the terminal or the  “Git Bash” tool.
-i.	Windows
-1.	 java -Xmx1024M -jar BuildTools.jar
-ii.	Mac
-1.	export MAVEN_OPTS="-Xmx2G" 
-2.	java -Xmx2G -jar BuildTools.jar
-iii.	Linux
-1.	git config --global --unset core.autocrlf
-2.	java -jar BuildTools.jar
-d.	It will take between 5-10 minutes to build the server jar and create the files and folders needed for the server.
-i.	During this time many files and folders will be downloaded and created in the folder that contains the build.jar. 
-e.	When it is finished, your terminal and folder containing the build jar should look like the screenshot below:   ‘
+When using the following commands, make sure you open the folder containing the Buildtools.jar file with the terminal or the  “Git Bash” tool
+
+It will take between 5-10 minutes to build the server jar and create the files and folders needed for the server.
+
+During this time many files and folders will be downloaded and created in the folder that contains the build.jar. 
+
+When it is finished, your terminal and folder containing the build jar should look like the screenshot below:
+
+### Windows
+ + `java -Xmx1024M -jar BuildTools.jar`
+###	Mac
+ + `export MAVEN_OPTS="-Xmx2G"` 
+ + `java -Xmx2G -jar BuildTools.jar`
+###	Linux
+ + `git config --global --unset core.autocrlf`
+ + `java -jar BuildTools.jar`
+
+
+
  
 f.	If the spigot-1.15.2.jar did not appear in the folder, check the BuildTools.log.txt
 i.	Chances are Java is not included in your path. You will need to add the Java Bin to your Environmental Variables path. 
