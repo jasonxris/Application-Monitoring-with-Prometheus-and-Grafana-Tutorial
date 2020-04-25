@@ -34,4 +34,7 @@ into your terminal, hit Enter, and wait for Homebrew to install:
 
 2.	After starting Prometheus, navigate to localhost:9090. If running properly, your screen should look like the screenshot below
 
-![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/ScreenShot1.png )
+![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/ScreenShot1.png )
+
+## Next Steps
+[Complete the Grafana preparation](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/GrafanaBackground.md)
