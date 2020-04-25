@@ -19,4 +19,4 @@
 a.	You will be prompted to change your password. If you do so DO NOT FORGET THE PASSWORD
 
 
-![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/ScreenShot2.PNG)
+![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/ScreenShot2.PNG)
