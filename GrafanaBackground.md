@@ -20,3 +20,6 @@ a.	You will be prompted to change your password. If you do so DO NOT FORGET THE 
 
 
 ![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/ScreenShot2.PNG)
+
+## Next Step
+[Finish the Minecraft server preparation](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/SpigotServerBackground.md)
