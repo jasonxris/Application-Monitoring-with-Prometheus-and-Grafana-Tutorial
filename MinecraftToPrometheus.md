@@ -1,9 +1,9 @@
 # Connecting Minecraft Server to Prometheus and Grafana
 
 ## Connecting a Minecraft Server to Prometheus
-_In the Pre-class assignment, you installed an exporter onto the Minecraft server by placing the minecraft-prometheus-exporter-2.0.0.jar into the minecraft-server&#39;s plugins folder. This exporter takes the metrics Minecraft is already creating and formats it in a way that Prometheus can understand. The exporter then exposes the data to a predetermined port. For this exporter, the data is exposed on port 9225._
+_In the Preparation, you installed an exporter onto the Minecraft server by placing the minecraft-prometheus-exporter-2.0.0.jar into the minecraft-server&#39;s plugins folder. This exporter takes the metrics Minecraft is already creating and formats it in a way that Prometheus can understand. The exporter then exposes the data to a predetermined port. For this exporter, the data is exposed on port 9225._
 
-1. Make sure that you have set up your Minecraft server according to the pre-class assignment.
+1. Make sure that you have set up your Minecraft server according to the Preparation steps.
 2. Open your Minecraft server folder
 3. Run the Minecraft server using the given start script
 4. Verify that the exporter was successfully installed.
@@ -23,6 +23,7 @@ _The Prometheus.yml file contains all the configuration for Prometheus. By confi
 8. Add a new job name, and target for the Minecraft server
       + Since the exporter is exposing the data on port 9225, we need to tell Prometheus to look for data on localhost:9225
       + Copy and paste the scrape\_config text below over the old scrape config in your prometheus.yml
+      + The scrape\_configs section of your prometheus.yml file should look like the screenshot below the scrap config text. **Save and exit the file**.
 
 ```
 _scrape\_configs:_
@@ -41,7 +42,7 @@ _static\_configs:_
 
 _- targets: [&#39;localhost:9225&#39;]_
 ```
-      + The scrape\_configs section of your prometheus.yml file should look like the screenshot below. **Save and exit the file**.
+
 
 ![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/Tutorial%20Screenshots/TScreenshot3.PNG)
 
