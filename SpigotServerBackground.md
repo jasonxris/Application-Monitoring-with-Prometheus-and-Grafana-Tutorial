@@ -61,7 +61,7 @@ To start the minecraft server, we need to run the `spigot-version-Name.jar`. I h
 +	Download the startup script found here : https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/start.sh
 +	place the start.sh file into your“minecraft-server” folder
 +	Set permissions with : `chmod +x start.sh`
-+	Run the startup script with ./start.sh
++	Run the startup script with `./start.sh`
 
 
 When you run the server for the first time it will stop and require you to open a eula.txt and change “eula=false” to “eula=true”
