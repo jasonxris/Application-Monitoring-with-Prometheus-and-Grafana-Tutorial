@@ -26,21 +26,14 @@ _The Prometheus.yml file contains all the configuration for Prometheus. By confi
       + The scrape\_configs section of your prometheus.yml file should look like the screenshot below the scrap config text. **Save and exit the file**.
 
 ```
-_scrape\_configs:_
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+    static_configs:
+    - targets: ['localhost:9090']
 
-_# The job name is added as a label `job=\&lt;job_name\&gt;` to any timeseries scraped from this config._
-
-_- job\_name: &#39;prometheus&#39;_
-
-_static\_configs:_
-
-_- targets: [&#39;localhost:9090&#39;]_
-
-_- job\_name: &#39;minecraft&#39;_
-
-_static\_configs:_
-
-_- targets: [&#39;localhost:9225&#39;]_
+  - job_name: 'minecraft'
+    static_configs:
+    - targets: ['localhost:9225']
 ```
 
 
