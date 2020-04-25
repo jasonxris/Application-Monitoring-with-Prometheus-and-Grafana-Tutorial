@@ -36,31 +36,32 @@ When it is finished, your terminal and folder containing the build jar should lo
  + `git config --global --unset core.autocrlf`
  + `java -jar BuildTools.jar`
 
+![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/MinecraftServerScreenshot.PNG )
 
-
+  +	If the spigot-1.15.2.jar did not appear in the folder, check the BuildTools.log.txt
+    + 	Chances are Java is not included in your path. You will need to add the Java Bin to your Environmental Variables path. 
+  + If you need further instruction or help, refer to the official Spigot Buildtools guide found here : https://www.spigotmc.org/wiki/buildtools/
  
-f.	If the spigot-1.15.2.jar did not appear in the folder, check the BuildTools.log.txt
-i.	Chances are Java is not included in your path. You will need to add the Java Bin to your Environmental Variables path. 
-g.	If you need further instruction or help, refer to the official Spigot Buildtools guide found here : https://www.spigotmc.org/wiki/buildtools/ 
-3.	Start the minecraft server 
-To start the minecraft server, we need to run the spigot-version-Name.jar. I have provided some scripts that can be used to run the server. Each script just runs the jar and allocates the amount of RAM that the server needs to run. 
+ ## Start Minecraft Server
+To start the minecraft server, we need to run the `spigot-version-Name.jar`. I have provided some scripts that can be used to run the server. Each script just runs the jar and allocates the amount of RAM that the server needs to run. 
 
-a.	When you install the spigot jar, it will have a name like spigot-1.15.1.jar 
-i.	Make sure this is the jar you are targeting in the .bat or .command file you are using to start your server
-b.	Mac
-i.	Download the startup script found here : https://drive.google.com/file/d/1OhsjOkgx0fKBGQi4JC8kpEL0HHzgoXm3/view?usp=sharing 
-ii.	Drop the start.command file into your“minecraft server” folder
-iii.	Open terminal, navigate to your ‘minecraft-server’ directory and set permissions with the following command:
-1.	chmod a+x  ./start.command
+ +	When you install the spigot jar, it will have a name like spigot-1.15.1.jar 
+    + 	Make sure this is the jar you are targeting in the .bat or .command file you are using to start your server 
+###	Windows
++	Download the startup batch file found here : https://drive.google.com/file/d/1ythPB-uWRNiEk42ONdigbGyAOoKdGHnE/view?usp=sharing 
++	Drop the batch file into your “minecraft-server” folder
++	Double click the batch file.  
+### Mac
++	Download the startup script found here : https://drive.google.com/file/d/1OhsjOkgx0fKBGQi4JC8kpEL0HHzgoXm3/view?usp=sharing 
++	Drop the start.command file into your“minecraft server” folder
++	Open terminal, navigate to your ‘minecraft-server’ directory and set permissions with the following command:
+1.	`chmod a+x  ./start.command`
 2.	Double click your startup script (or execute it from the command line with ./start.command)
-c.	Windows
-i.	Download the startup batch file found here : https://drive.google.com/file/d/1ythPB-uWRNiEk42ONdigbGyAOoKdGHnE/view?usp=sharing 
-ii.	Drop the batch file into your“minecraft-server” folder
-iii.	Double click the batch file.
-d.	Linux
+
+### Linux
 i.	Download the startup script found here : https://drive.google.com/file/d/1knwL5V6p29_I4OSfJxZFbcgRPPH-oO0n/view?usp=sharing 
 ii.	place the start.sh file into your“minecraft-server” folder
-iii.	Set permissions with : chmod +x start.sh
+iii.	Set permissions with : `chmod +x start.sh`
 iv.	Run the startup script with ./start.sh
 e.	When you run the server for the first time it will stop and require you to open a eula.txt and change “eula=false” to “eula=true”
 f.	Start the server again to finish setting up the minecraft server
