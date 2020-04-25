@@ -94,3 +94,6 @@ After the server is started, if running correctly your terminal should look like
 ![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/TerminalScreenshot.PNG)   
 
 This minecraft server is now using the minecraft-exporter.jar to convert metrics/data the server has already created into a format that prometheus can understand. 
+
+## Verify Setup before continuing
+[Verification Steps](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Preparation.md)
