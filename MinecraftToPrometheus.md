@@ -5,19 +5,17 @@ _In the Pre-class assignment, you installed an exporter onto the Minecraft serve
 
 1. Make sure that you have set up your Minecraft server according to the pre-class assignment.
 2. Open your Minecraft server folder
-3. **Run the Minecraft server** using the given start script
+3. Run the Minecraft server using the given start script
 4. Verify that the exporter was successfully installed.
       + If it was installed successfully, your terminal should look like the screenshot below
-
 ![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/Tutorial%20Screenshots/Tutorial-SCreenshot1.PNG)
 
 1. **Navigate to the directory that contains the prometheus configuration file also known as the prometheus.yml file**
-  1. **For Mac users:** Navigate to the directory where you placed the downloaded prometheus.yml during the pre-class assignment
-
+      + **For Mac users:** Navigate to the directory where you placed the downloaded prometheus.yml during the pre-class assignment
 ![](https://github.com/jasonxris/Application-Monitoring-with-Prometheus-and-Grafana-Tutorial/blob/master/Student%20Files/Screenshots/Tutorial%20Screenshots/TutorialScreenshot2.PNG)
 
 1. **Open the prometheus.yml** file
-  1. **For Mac users:** Open the prometheus.yml you **set to be the prometheus config.file in step 1.V** of the pre-class assignment
+      + **For Mac users:** Open the prometheus.yml you **set to be the prometheus config.file in step 1.V** of the pre-class assignment
 
 _The Prometheus.yml file contains all the configuration for Prometheus. By configuring the Prometheus.yml file, you can tell Prometheus when, how, and where to scrape for data. We are going to configure it to scrape for data from our Minecraft server._
 
