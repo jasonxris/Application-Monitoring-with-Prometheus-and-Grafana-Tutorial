@@ -45,7 +45,7 @@ _The Prometheus.yml file contains all the configuration for Prometheus. By confi
 
 10. Run Prometheus
 + use the following command to run prometheus
-      + Mac: `prometheus --config.file=\&lt;directory for your config file\&gt;/prometheus.yml`
+      + Mac: `prometheus --config.file=<directory for your config file>/prometheus.yml`
       + Windows: Run the prometheus.exe file
 
 **ADD GIF HERE**
